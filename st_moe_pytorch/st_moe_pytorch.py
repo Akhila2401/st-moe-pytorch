@@ -546,7 +546,7 @@ class TopNGating(Module):
         return dispatch_tensor, combine_tensor, balance_loss, router_z_loss
 
 # plain mixture of experts
-
+#MY COMMENT 
 class MoE(Module):
 
     @beartype
